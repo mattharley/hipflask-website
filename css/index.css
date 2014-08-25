@@ -1,0 +1,30 @@
+body { font-size: 62.5%; }
+
+.hf-header {
+    background: #5e82af url("../img/header-blue.jpg") left top;
+    padding: 2em 0;
+}
+
+.hf-icon-header {
+    margin-bottom: 1em;
+    margin-left: -16px;
+}
+
+.hf-logo-header {
+    margin: 2em 4em;
+}
+
+span.hf-logo {
+    float: left;
+}
+
+span.hf-social {
+    float: right;
+    min-height: 13em;
+}
+
+span.hf-social img {
+    margin-top: 6em;
+    margin-bottom: 2em;
+    margin-left: 6em;
+}
