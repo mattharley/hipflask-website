@@ -11,6 +11,32 @@ p {
     margin: 2em 0;
 }
 
+.hf-front {
+    position: absolute;
+    background-color: blue;
+    z-index: 10;
+    height:100%;
+    width: 100%;
+}
+
+.hf-back {
+    position: absolute;
+    background-color: red;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+}
+
+/*.hf-front-cover {
+    min-height: 60%;
+    width: 100%;
+    background: url(../img/main-bg-blue.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+
 .hf-header {
     background: #5e82af url("../img/header-blue.jpg") left top;
 }
