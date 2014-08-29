@@ -2,6 +2,15 @@ body {
     font-family: "proxima-nova";
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
 .container{
     width: 985px;
 }
@@ -96,7 +105,6 @@ span.hf-social {
     list-style-type: none;
     margin-bottom: 0;
     margin-top: 0;
-    margin-right: 89px;
     font-size: 20px;
 }
 
@@ -148,6 +156,10 @@ span.hf-social {
     margin-bottom: 15px;
 }
 
+.hf-appstore a:hover {
+    text-decoration: none;
+}
+
 .hf-copyright {
     float: left;
     margin-left: 4px;
@@ -160,4 +172,14 @@ span.hf-social {
 
 .hf-girl img {
     height: 870px;
+}
+
+.hf-privacy ul {
+    margin: 0;
+    font-size: 16px;
+}
+
+.hf-privacy p {
+    margin: 10px 0px;
+    font-size: 20px;
 }
