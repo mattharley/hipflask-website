@@ -32,7 +32,7 @@ p {
 /*.hf-front-cover {
     min-height: 60%;
     width: 100%;
-    background: url(../img/main-bg-blue.jpg) no-repeat center center fixed; 
+    background: url(../img/main-bg-blue.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -98,4 +98,27 @@ span.hf-social {
 
 .hf-links li {
     display: inline-block;
+}
+
+.hf-download {
+    margin-top: 90px;
+}
+
+.hf-appstore, .hf-girl {
+    display: inline-block;
+    max-width: 500px;
+}
+
+.hf-appstore p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hf-girl {
+    float: right;
+    margin-right: -13px;
+}
+
+.hf-girl img {
+    height: 870px;
 }
