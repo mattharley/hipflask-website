@@ -79,6 +79,8 @@ span.hf-social {
 .hf-footer {
     color: #9d9d9d;
     padding-bottom: 2em;
+    margin-top: 137px;
+    font-size: 20px;
 }
 
 .hf-copyright {
@@ -87,17 +89,20 @@ span.hf-social {
 
 .hf-links {
     float: right;
+    font-weight: 600;
 }
 
 .hf-links ul {
-    display: inline-block;
     list-style-type: none;
     margin-bottom: 0;
     margin-top: 0;
+    margin-right: 89px;
+    font-size: 20px;
 }
 
 .hf-links li {
     display: inline-block;
+    padding: 0 10px;
 }
 
 .hf-download {
@@ -109,9 +114,43 @@ span.hf-social {
     max-width: 500px;
 }
 
+.hf-align-bottom {
+    margin-top: 478px;
+}
+
 .hf-appstore p {
     font-weight: 400;
-    font-size: 20px;
+    margin: 0;
+    font-size: 48px;
+    color: #9d9d9d;
+    margin-left: 3px;
+    line-height: 50px;
+}
+
+.hf-appstore ul {
+    list-style-type: none;
+    margin-top: 84px;
+    padding: 0;
+}
+
+.hf-appstore li {
+    background: #4f74b3;
+    border: 2px solid #4f74b3;
+    border-radius: 15px;
+    padding: 9px 16px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 100;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 280px;
+    margin-left: 3px;
+    margin-bottom: 15px;
+}
+
+.hf-copyright {
+    float: left;
+    margin-left: 4px;
 }
 
 .hf-girl {
