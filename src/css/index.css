@@ -1,4 +1,4 @@
-body { 
+body {
     font-family: "proxima-nova";
 }
 
@@ -13,6 +13,7 @@ a:hover {
 
 .container{
     width: 985px;
+
 }
 
 h1 {
@@ -23,6 +24,38 @@ h1 {
 p {
     margin: 2em 0;
 }
+
+.row {
+    position: relative;
+}
+.row.table-row {
+    display:table;
+    width:100%;
+    margin:0
+    auto;
+}
+
+.hf-coverphone {
+    height:50%;
+    width:50%;
+}
+
+.hf-logocenter {
+    position: relative;
+    line-height:100px;
+    bottom:0px;
+    left:0px;
+
+}
+
+.hf-mainphone {
+
+    line-height: 400px;
+}
+
+
+
+
 
 .hf-front {
     position: absolute;
@@ -38,15 +71,15 @@ p {
     width: 100%;
 }
 
-/*hf-front-cover {
+.hf-front-cover {
     min-height: 60%;
     width: 100%;
-    background: url(../img/main-bg-blue.jpg) no-repeat center center; 
+    background: url(../img/main-bg-blue.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}*/
+}
 
 .hf-header {
     background: #5e82af url("../img/header-blue.jpg") left top;
