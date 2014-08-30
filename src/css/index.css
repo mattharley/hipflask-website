@@ -28,6 +28,7 @@ p {
     margin: 2em 0;
 }
 
+/* HEADER */
 .hf-header {
     background: #5e82af url("../img/header-blue.jpg") left top;
     -webkit-background-size: cover;
@@ -63,11 +64,26 @@ p {
     padding-right: 10px;
     padding-left: 10px;
 }
+/* /HEADER */
 
+/* CONTENT */
 .hf-content {
     padding: 6em 0;
 }
 
+.hf-content ul {
+    margin: 0;
+    font-size: 16px;
+}
+
+.hf-content p {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+/* /CONTENT */
+
+
+/* FOOTER */
 .hf-footer {
     color: #9d9d9d;
     padding-bottom: 2em;
@@ -75,42 +91,60 @@ p {
     font-size: 20px;
 }
 
-.hf-copyright {
-    float: left;
-}
-
-.hf-links {
-    float: right;
+.hf-links ul {
     font-weight: 600;
 }
 
-.hf-links ul {
-    list-style-type: none;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 20px;
+@media (min-width: 992px) {
+    .hf-links ul {
+        float: right;
+    }
 }
 
-.hf-links li {
-    display: inline-block;
-    padding: 0 10px;
-}
+/* /FOOTER */
 
+/* DOWNLOAD SECTION */
 .hf-download {
     padding-top: 90px;
 }
 
 .hf-align-bottom {
-    margin-top: 480px;
+    margin-top: 78px;
+}
+
+@media (min-width: 992px) {
+    .hf-align-bottom {
+        margin-top: 480px;
+    }
+}
+
+.hf-appstore {
+    /* To swap appstore and girl on mobile devices */
+    display: table-footer-group;
+}
+
+.hf-girl {
+    /* To swap appstore and girl on mobile devices */
+    display: table-header-group;
+}
+
+.hf-girl img {
+    height: 870px;
 }
 
 .hf-appstore p {
     font-weight: 400;
     margin: 0;
-    font-size: 48px;
+    font-size: 56px;
     color: #9d9d9d;
     margin-left: 3px;
     line-height: 50px;
+}
+
+@media (min-width: 992px) {
+    .hf-align-bottom {
+        font-size: 48px;
+    }
 }
 
 .hf-appstore ul {
@@ -123,36 +157,24 @@ p {
     background: #4f74b3;
     border: 2px solid #4f74b3;
     border-radius: 15px;
-    padding: 9px 16px;
+    padding: 20px 16px;
     color: #FFFFFF;
     text-align: center;
     font-size: 31px;
     font-weight: 100;
     font-family: 'Open Sans Condensed', sans-serif;
-    width: 280px;
     margin-left: 3px;
     margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+    .hf-appstore li {
+        width: 280px;
+        padding: 9px 16px;
+    }
 }
 
 .hf-appstore a:hover {
     text-decoration: none;
 }
-
-.hf-copyright {
-    float: left;
-    margin-left: 4px;
-}
-
-.hf-girl img {
-    height: 870px;
-}
-
-.hf-privacy ul {
-    margin: 0;
-    font-size: 16px;
-}
-
-.hf-privacy p {
-    margin: 10px 0px;
-    font-size: 20px;
-}
+/* /DOWNLOAD SECTION */
