@@ -1,4 +1,12 @@
+
+
+.subtitle {
+    fixed: yes;
+}
+
+
 /* apply a natural box layout model to all elements, but allowing components to change */
+
 html {
   box-sizing: border-box;
 }
@@ -95,7 +103,7 @@ p {
     font-weight: 600;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .hf-links ul {
         float: right;
     }
@@ -109,12 +117,18 @@ p {
 }
 
 .hf-align-bottom {
-    margin-top: 78px;
+    margin-top: 0;
+}
+
+@media (min-width: 768px) {
+    .hf-align-bottom {
+        margin-top: 90%;
+    }
 }
 
 @media (min-width: 992px) {
     .hf-align-bottom {
-        margin-top: 480px;
+        margin-top: 100%;
     }
 }
 
@@ -129,16 +143,30 @@ p {
 }
 
 .hf-girl img {
-    height: 870px;
+    width:100%;
+    height:auto;
+}
+
+@media (min-width: 992px) {
+    .hf-girl img {
+        width:110%;
+    }
 }
 
 .hf-appstore p {
     font-weight: 400;
     margin: 0;
-    font-size: 56px;
+    font-size: 12.4vw;
     color: #9d9d9d;
     margin-left: 3px;
-    line-height: 50px;
+    line-height: 13.6vw;
+}
+
+@media (min-width: 768px) {
+    .hf-appstore p {
+        font-size: 3.4vw;
+        line-height: 3.6vw;
+    }
 }
 
 @media (min-width: 992px) {
@@ -149,7 +177,7 @@ p {
 
 .hf-appstore ul {
     list-style-type: none;
-    margin-top: 84px;
+    margin-top: 18%;
     padding: 0;
 }
 
@@ -157,19 +185,27 @@ p {
     background: #4f74b3;
     border: 2px solid #4f74b3;
     border-radius: 15px;
-    padding: 20px 16px;
+    padding: 4vw 16px;
     color: #FFFFFF;
     text-align: center;
-    font-size: 31px;
+    font-size: 7vw;
     font-weight: 100;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-left: 3px;
     margin-bottom: 15px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .hf-appstore li {
+        font-size: 2.5vw;
+        padding: 8px 16px;
+        width: 25vw;
+    }
 }
 
 @media (min-width: 992px) {
     .hf-appstore li {
-        width: 280px;
         padding: 9px 16px;
     }
 }
