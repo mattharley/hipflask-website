@@ -38,13 +38,61 @@ p {
 /* COVER PAGE */
 .hf-coverback {
     background: #5e82af url("../img/main-bg-blue.jpg") top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .hf-logocenter {
-
-    height: 77px;
+    position: relative;
+    border:blue solid 2px;
 }
 
+.hf-logocenter:a {
+
+}
+
+.hf-centered {
+    margin-left: 15%;
+}
+
+.hf-blank {
+    background: #ffffff
+}
+
+
+.hf-mainphone {
+
+    border:blue solid 2px;
+}
+
+.col-middle {
+    vertical-align:middle;
+}
+
+.col-xs-height {
+    display:table-cell;
+    float:none;
+}
+
+.row-xs-height {
+    display:table-row;
+}
+
+.hf-coverphone {
+    height:50%;
+    width:50%;
+}
+
+.hf-description {
+    position: relative;
+    border:red dashed 2px;
+    margin-left: 15%;
+    width:50%;
+}
+
+/* COVER PAGE */
 
 /* HEADER */
 .hf-header {
