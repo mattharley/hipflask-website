@@ -46,16 +46,21 @@ p {
 
 .hf-logocenter {
     position: relative;
+    padding-top: 40%;
     border:blue solid 2px;
 }
 
-.hf-logocenter:a {
-
-}
-
 .hf-centered {
-    margin-left: 15%;
+        margin-left: 0;
+        border:blue solid 2px;
+    }
+
+@media (min-width: 992px) {
+     .hf-centered {
+        margin-left: 35%;
+    }
 }
+
 
 .hf-blank {
     background: #ffffff
@@ -63,8 +68,18 @@ p {
 
 
 .hf-mainphone {
+    padding-top: 0%;
+    padding-left: 0%;
+    border:black solid 2px;
+}
 
-    border:blue solid 2px;
+@media (min-width: 992px) {
+     .hf-mainphone {
+        padding-top: 40%;
+    }
+    .hf-coverphone {
+        margin-left: 50%;
+    }
 }
 
 .col-middle {
