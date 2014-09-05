@@ -46,13 +46,11 @@ p {
 
 .hf-logocenter {
     position: relative;
-    padding-top: 40%;
-    border:blue solid 2px;
+    padding-top: 30%;
 }
 
 .hf-centered {
         margin-left: 0;
-        border:blue solid 2px;
     }
 
 @media (min-width: 992px) {
@@ -61,6 +59,9 @@ p {
     }
 }
 
+.hf-right {
+    padding-right: 10%;
+}
 
 .hf-blank {
     background: #ffffff
@@ -68,17 +69,22 @@ p {
 
 
 .hf-mainphone {
-    padding-top: 0%;
-    padding-left: 0%;
-    border:black solid 2px;
+    padding-right: 10%;
+}
+
+.hf-coverphone {
+    height:100%;
+    width:100%;
+    padding-right: 10%;
 }
 
 @media (min-width: 992px) {
      .hf-mainphone {
         padding-top: 40%;
+        padding-right: 17%;
     }
     .hf-coverphone {
-        margin-left: 50%;
+        margin-left: 5%;
     }
 }
 
@@ -93,18 +99,22 @@ p {
 
 .row-xs-height {
     display:table-row;
+
 }
 
-.hf-coverphone {
-    height:50%;
-    width:50%;
+.hf-toppad {
+    margin-bottom: 20%;
+    max-width:27em;
 }
-
 .hf-description {
     position: relative;
-    border:red dashed 2px;
     margin-left: 15%;
     width:50%;
+}
+
+.hf-toppad p {
+    font-size: 15px;
+    color: #000000;
 }
 
 /* COVER PAGE */
