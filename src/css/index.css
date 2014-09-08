@@ -79,6 +79,12 @@ p {
     background: #ffffff
 }
 
+@media (min-width: 768px) {
+    .hf-toppad {
+        margin-bottom: -20%;
+    }
+}
+
 .hf-toppad p {
     font-size: 1.4vw;
     color: #000000;
